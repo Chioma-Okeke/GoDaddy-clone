@@ -102,4 +102,49 @@ body {
     font-size: 100px;
     }
 }
-  
+
+.hero-section {
+    padding: 0;
+    width: 100%;
+    position: relative;
+    margin: 2rem auto 0;
+    margin-top: 0;
+}
+
+.hero-section figure {
+    width: 100%;
+    aspect-ratio: 343/171.5;
+    clip-path: inset(0);
+    margin: 0;
+    position: relative;
+    display: block;
+    height: 534px;
+}
+
+.hero-section figure img {
+    position: fixed;
+    display: block;
+    left: 0;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .hero-section {
+        width: 100%;
+    }
+
+    .hero-section figure {
+        width: 90%;
+        margin: 0 auto;
+        margin: 0;
+    }
+
+    .hero-section figure img {
+        width: 100%;
+    }
+}

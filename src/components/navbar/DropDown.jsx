@@ -5,7 +5,7 @@ export default function DropDown({ subMenu, onMouseEnter, onMouseLeave }) {
     return (
         <div>
             <div
-                className="mt-1 absolute top-full -left-10 w-[130px] rounded-md bg-white border shadow-sm"
+                className="font-normal px-2 absolute top-full -left-10 w-[140px] rounded-md bg-white border shadow-sm z-50"
                 onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseLeave}
             >

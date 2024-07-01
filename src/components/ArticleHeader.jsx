@@ -32,9 +32,9 @@ const buttons = [
 
 function ArticleHeader() {
     return (
-        <header>
+        <header className="pt-5 lg:pt-20">
             <div className="w-[90%] xl:w-[80%] 2xl:w-[80%] mx-auto border-[rgb(175,175,175)] pb-12">
-                <h1 className="font-bold text-3xl md:text-5xl lg:text-6xl xl:text-8xl my-4 lg:my-0">
+                <h1 className="font-bold text-4xl md:text-5xl lg:text-6xl xl:text-8xl my-4 lg:my-0">
                     7 must-have web development tools
                 </h1>
                 <div className="flex flex-col lg:flex-row items-start lg:items-center lg:pt-5">

@@ -1,7 +1,7 @@
 import React from "react";
 
 function ScrollProgress() {
-    const [srollProgress, setScrollProgress] = React.useState(5)
+    const [srollProgress, setScrollProgress] = React.useState(0)
 
     const divStyle = {
         width: `${srollProgress}%`
@@ -25,7 +25,7 @@ function ScrollProgress() {
     }, [])
 
     return (
-        <div className="bg-[#afafaf] w-full h-3 z-50 sticky top-0 left-0 right-0">
+        <div className="bg-[#afafaf] w-full h-3 z-40 sticky top-0 left-0 right-0">
             <div className={`bg-[#61edea] h-full`} style={divStyle}></div>
         </div>
     );
